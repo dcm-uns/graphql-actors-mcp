@@ -1,0 +1,10 @@
+{
+  "name": "actores-graphql-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Servidor MCP que expone la API GraphQL de actores como tools",
+  "main": "server-mcp.js",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
