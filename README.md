@@ -1,4 +1,4 @@
-# MCP para la API de actores — guía para la clase
+# MCP para la API de actores 
 
 MCP (Model Context Protocol) es un estándar para que un agente de IA use
 herramientas externas. En vez de que el agente "adivine" cómo hablarle a una
@@ -17,7 +17,7 @@ npm install
 Abrir `server.js` y reemplazar esta línea con la URL real del Server GraphQL:
 
 ```js
-const GRAPHQL_URL = process.env.ACTORES_API_URL || "https://TU-APP.onrender.com/graphql";
+const GRAPHQL_URL = process.env.ACTORES_API_URL || "https://TU-APP/graphql";
 ```
 
 ## Paso 3 — Conectar el servidor MCP a un agente de dialogo, como Claude Desktop u OpenCode
